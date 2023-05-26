@@ -62,3 +62,13 @@ let String2 = "Apar";
 
 let fullName = String1 + " " + String2; 
 console.log(fullName);
+
+// Template String 
+
+let age = 25;
+let firstName1 = "Rushikesh"
+
+console.log("my name is "+firstName1+ " and my age is "+age);
+ 
+console.log(`My name is ${firstName1} and my age is ${age}`); //  by using back ticks 
+
