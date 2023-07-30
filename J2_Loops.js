@@ -1,3 +1,26 @@
+//==========================================================================================
+// console.log("----------  Aler,Prompt and Confirm -------------------------------");
+
+// let age = prompt("Enter your age")
+
+// if(age != null){
+//    console.log(`Your age is ${age} `)
+// }
+// else{
+
+//     console.log("you not enterd your age")
+// }
+
+// let response = confirm("Are you really want to delet this file?")
+// if(response){                                          //  in true or false
+//    console.log("file deleted successfully");
+// }
+// else{
+//     console.log("file not deleted");
+// }
+
+
+
 console.log("====== LOOPS ======");
 
 console.log("----------  while Loop  ----------------------------");
@@ -60,7 +83,7 @@ for (let counterD = 1; counterD <= 10; counterD++) {
     console.log("break in loops", counterD);
 }
 
-//========================================================================================================
+//==========================================================================================
 console.log("----------  nested loops  -------------------------------");
 
 outer: for (let counterE = 1; counterE <= 10; counterE++) {
@@ -82,5 +105,4 @@ outer: for (let counterE = 1; counterE <= 10; counterE++) {
      }
 
     }
-
 
