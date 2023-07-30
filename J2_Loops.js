@@ -1,8 +1,9 @@
 console.log("====== LOOPS ======");
 
+console.log("----------  while Loop  ----------------------------");
 let counter = 1;
 while (counter <= 10) {
-    console.log("while loop");
+    console.log("while loop", counter);
     counter++;
 }
 
@@ -20,21 +21,66 @@ while (num <= 100) {
 console.log("=> sum of all even numbers between 0 to 100:", sum);
 
 
-
+//============================================================================================
 console.log("---------- do while loop ----------------------------");
 
-let counter1 = 1;
+let counterA = 1;
 
 do {
-    console.log("do while loop");
-    counter1++;
-} while (counter1 <= 10)
+    console.log("do while loop", counterA);
+    counterA++;
+} while (counterA <= 10)
 
-
+//================================================================================================
 
 console.log("---------- For loop --------------------------------");
 
-let counter2 = 2;
-for (counter2 = 1; counter2 <= 10; counter2++) {
-    console.log("For Loop");
+for (let counterB = 1; counterB <= 10; counterB++) {
+    console.log("For Loop", counterB);
 }
+
+//=================================================================================================
+console.log("---------- Continue and break in loops -------------------------------");
+console.log("----------  break in loops -------------------------------");
+
+for (let counterC = 1; counterC <= 10; counterC++) {
+    if (counterC == 5) {
+        break;                    // this will break loop when they get  the number 5
+    }
+    console.log("break in loops", counterC);
+}
+
+
+console.log("----------  Continue in loops -------------------------------");
+for (let counterD = 1; counterD <= 10; counterD++) {
+
+    if (counterD == 5) {              // this will skip the number 5
+        continue;
+    }
+    console.log("break in loops", counterD);
+}
+
+//========================================================================================================
+console.log("----------  nested loops  -------------------------------");
+
+outer: for (let counterE = 1; counterE <= 10; counterE++) {
+    console.log(counterE);
+
+    for (let counterF = 1; counterF < 3; counterF++) {
+
+        if (counterE == 3) {
+            break;
+        }
+
+        //if we want to appply this chiled break on parent loop then for target parent loop we can lable it and target it like this
+        //     if (counterE == 3) {
+        //         break outer;
+        //     }
+
+            console.log("tech gun", counterF);
+
+     }
+
+    }
+
+
