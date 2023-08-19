@@ -1,4 +1,4 @@
-console.log("Objectn");
+console.log("Object");
 
 let student1 = {
   firstName: "Rushikesh",
@@ -13,10 +13,10 @@ console.log("noraml obj :", student1);
 
 console.log("Object Constructor Function & prototype");
 function student(first, last, age, clas) {
-  (this.firstName = first),
-    (this.lastName = last),
-    (this.age = age),
-    (this.class = clas);
+    this.firstName = first,
+    this.lastName = last,
+    this.age = age,
+    this.class = clas
 }
 
 student1 = new student("Tanvika", "Raut", 25, 4);
