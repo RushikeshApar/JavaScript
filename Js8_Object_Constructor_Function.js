@@ -29,7 +29,7 @@ student4 = new student("Anna", "Apar", 28, 15);
 
 console.log(student1, student2, student3, student4);
 
-console.log("Adding function in Constructor obj :", student1.name());
+console.log("Adding function in Constructor function :", student1.name());
 
 // prtotype is used for when we want to add new properties in all object at a time
 student.prototype.nationality = "INDIAN";
