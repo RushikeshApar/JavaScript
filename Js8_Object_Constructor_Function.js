@@ -27,7 +27,10 @@ student2 = new student("jeet", "Dank", 25, 4);
 student3 = new student("pratik", "jadhav", 18, 1);
 student4 = new student("Anna", "Apar", 28, 15);
 
-console.log(student1, student2, student3, student4);
+console.log(student1);
+console.log(student2);
+console.log(student3);
+console.log(student4);
 
 console.log("Adding function in Constructor function :", student1.name());
 
