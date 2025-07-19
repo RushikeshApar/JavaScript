@@ -1,28 +1,28 @@
-// "use strict"
+// // "use strict"
 
-hello();
+// hello();
 
-function  hello () {
-    console.log("hello Hoisting");
-};
-////////////////////////////////////////////////////////
-var x ;  // Js compioler automatically assigned undefined but not in let & const 
+// function  hello () {
+//     console.log("hello Hoisting");
+// };
+// ////////////////////////////////////////////////////////
+// var x ;  // Js compioler automatically assigned undefined but not in let & const 
 
-console.log(x);
+// console.log(x);
 
-x = 7;
+// x = 7;
 
-// Js compioler only lift declaration (var x), never lift assigned (x = 7) 
-
-
-/*  js compiler move's declaration top of the  current scope.
-ex - in function he will move declaration to top of the function, not globaly top of*/
+// // Js compioler only lift declaration (var x), never lift assigned (x = 7) 
 
 
-y = 4;
+// /*  js compiler move's declaration top of the  current scope.
+// ex - in function he will move declaration to top of the function, not globaly top of*/
 
-console.log(y);
 
-// "use strict" this will give you error ,this is forstrict typing otherwise if you forgot to declare jd automaticaly declare it like (var y;)
+// y = 4;
 
-// used strict mode otherwise you will get bugs
+// console.log(y);
+
+// // "use strict" this will give you error ,this is forstrict typing otherwise if you forgot to declare jd automaticaly declare it like (var y;)
+
+// // used strict mode otherwise you will get bugs
