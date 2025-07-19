@@ -20,5 +20,5 @@ let arr = ["X","Y","Z"]
 let arr3 = [...arr]
 arr3.push("Rushi")
 console.log(arr);
-console.log(arr3);
+console.log(arr3);  
 
